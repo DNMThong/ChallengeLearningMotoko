@@ -1,0 +1,8 @@
+{
+    "canisters" : {
+        "cd1" : {
+            "main": "main.mo",
+            "type" : "motoko"
+        }
+    }
+}
