@@ -142,7 +142,7 @@ actor {
         return Array.mapEntries<Nat,Nat>(arr,Nat.add);
     };
 
-    // use custom high func challenge 17
+    // use custom higher order function challenge 17
     public func isContainsNumber(arr : [Nat],n : Nat) : async Bool {
         return CustomHOF.contains<Nat>(arr,n,func(a:Nat,b:Nat) {a == b});
     };
