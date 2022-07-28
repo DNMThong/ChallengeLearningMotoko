@@ -1,0 +1,12 @@
+{
+    "canisters" : {
+        "cd3" : {
+            "main": "main.mo",
+            "type": "motoko"
+        },
+        "cd3_c19" : {
+            "main" : "challenge_19.mo",
+            "type" : "motoko"
+        }
+    }
+}
